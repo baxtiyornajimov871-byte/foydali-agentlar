@@ -363,6 +363,66 @@
       "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
       "risk": "o‘rta",
       "notes": "Litsenziya va self-hosted talablar aniqlanmaguncha tijoriy foydalanishga ruxsatli deb hisoblanmaydi."
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "category": "shaxsiy_yordamchi",
+      "priority": "keyin",
+      "purpose": "Jarvisga o‘xshash ochiq kodli shaxsiy yordamchi: kundalik vazifalar, ko‘nikmalar va shaxsiy AI tajribasi. Loyiha 2.0 desktop ilovasiga tayyorlanmoqda.",
+      "repository": "https://github.com/leon-ai/leon",
+      "license": "MIT",
+      "language": "TypeScript",
+      "windows_status": "2.0 desktop ilovasi hali alpha sifatida tayyorlanmoqda; Windows native qo‘llovi amaliy tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "README bo‘yicha 2.0 desktop ilovasi hali chiqarilmagan; develop tarmog‘idagi web preview yakunlanmagan. Hozir darhol asosiy yordamchi sifatida o‘rnatilmaydi.",
+      "project_type": "agent"
+    },
+    {
+      "id": "openvoiceos",
+      "name": "OpenVoiceOS (OVOS)",
+      "category": "ovozli_yordamchi",
+      "priority": "keyin",
+      "purpose": "Ovoz orqali buyruq qabul qiladigan, ko‘nikmalar bilan kengayadigan ochiq kodli ovozli yordamchi platformasi.",
+      "repository": "https://github.com/OpenVoiceOS/ovos-core",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Asosan Linux va aqlli qurilmalar uchun yo‘naltirilgan; Windows’da to‘liq ishga tushishi tasdiqlanmagan",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Bu bitta tayyor Windows Jarvis dasturi emas, markaziy yadro va alohida ko‘nikmalardan tuziladigan platforma. Sinov uchun alohida muhit talab qilinadi.",
+      "project_type": "agent_platform"
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "category": "agent_xotirasi",
+      "priority": "keyin",
+      "purpose": "AI agentlar uchun uzoq muddatli xotira qatlamini taqdim etadi; foydalanuvchi afzalliklari va oldingi suhbatlardan kerakli kontekstni saqlashga yordam beradi.",
+      "repository": "https://github.com/mem0ai/mem0",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Python orqali ishlatish yo‘li mavjud; ma’lumotlar bazasi va model xizmatlari sozlanishi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Mustaqil suhbat agenti emas, Hermes yoki o‘zimiz yaratadigan yordamchi kabi agentlarga ulanishi mumkin bo‘lgan xotira infratuzilmasi. Maxfiy ma’lumotlarni saqlash siyosati alohida belgilanadi.",
+      "project_type": "agent_xotira_vositasi"
+    },
+    {
+      "id": "llama-index",
+      "name": "LlamaIndex",
+      "category": "talim_va_hujjatlar",
+      "priority": "keyin",
+      "purpose": "PDF, hujjatlar va boshqa ma’lumot manbalarini AI uchun indekslash, qidirish (RAG) va hujjatga tayangan agentlar yaratish.",
+      "repository": "https://github.com/run-llama/llama_index",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "Python orqali Windows’da ishlatish imkoniyati bor; bog‘liqliklar va model tanlovi sinovdan o‘tkaziladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "TATU dars materiallari, loyiha hujjatlari va shaxsiy bilimlar bazasi uchun foydali. Loyiha hozir hujjatlarni ajratib olish va parsing yo‘nalishiga ham katta e’tibor qaratmoqda; mustaqil tayyor yordamchi emas.",
+      "project_type": "agent_framework"
     }
   ]
 }
