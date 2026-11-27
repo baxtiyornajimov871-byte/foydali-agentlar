@@ -22,6 +22,12 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 4. O‘rnatishdan oldin foydalanuvchiga yuklama va ruxsatlarni ko‘rsatadigan mexanizm yaratish.
 5. Windows desktop interfeysini yaratish va agentlarni bittadan sinash.
 
+## Katalogning hozirgi holati
+
+- 24 ta loyiha katalogga kiritilgan.
+- Ularning barchasi o‘rnatilmagan; Windows mosligi va resurs sarfi alohida sinovdan o‘tadi.
+- `project_type` maydoni haqiqiy agentni, frameworkni, model muhitini va yordamchi vositani farqlaydi.
+
 ## Birinchi qo‘shilgan asosiy agent
 
 - **Hermes Agent** — umumiy shaxsiy yordamchi. Rasmiy repozitoriyada native Windows o‘rnatish yo‘li ko‘rsatilgan. Hozircha katalogga kiritilgan, lekin noutbukga o‘rnatilmagan va amaliy sinovdan o‘tmagan.
@@ -30,7 +36,9 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 
 ## Katalog
 
-Boshlang‘ich agentlar ro‘yxati: [catalog/agents.json](catalog/agents.json)
+Hozirgi katalogda **24 ta loyiha** bor: agentlar, agent frameworklari, mahalliy model muhiti va yordamchi media/hujjat vositalari. Ro‘yxat: [catalog/agents.json](catalog/agents.json)
+
+Yangi qo‘shilgan loyihalar bo‘yicha qisqa saralash: [docs/KATALOG_SARALASH.md](docs/KATALOG_SARALASH.md)
 
 Tanlash va xavfsizlik qoidalari: [docs/AGENT_TANLASH_QOIDALARI.md](docs/AGENT_TANLASH_QOIDALARI.md)
 
