@@ -2,8 +2,22 @@
   "schema_version": "1.0.0",
   "language": "uz",
   "last_reviewed": "2026-11-27",
-  "note": "Bu boshlang‘ich nomzodlar katalogi. Ro‘yxatga kirish o‘rnatishga tayyor yoki Windows’da sinovdan o‘tgan degani emas.",
+  "note": "Katalog — tekshirilgan nomzodlar ro‘yxati; o‘rnatilgan yoki amaliy sinovdan o‘tgan degani emas. Rasmiy repozitoriyalar alohida saqlanadi, bu loyihada ularning kodlari nusxalanmaydi.",
   "agents": [
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "category": "shaxsiy_yordamchi",
+      "priority": "hozir",
+      "purpose": "Umumiy shaxsiy AI yordamchi: xotira, ko‘nikmalar, vazifalarni bajarish, internet va boshqa vositalar bilan ishlash.",
+      "repository": "https://github.com/NousResearch/hermes-agent",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "rasmiy manbada Windows native qo‘llab-quvvatlanadi; amaliy sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Rasmiy PowerShell o‘rnatuvchisi Python 3.14, Node.js, npm, pnpm, ripgrep va FFmpeg kabi bog‘liqliklarni boshqaradi. O‘rnatishdan oldin yuklamalar, disk hajmi va buyruqlar tekshiriladi. Agent terminal, brauzer va tashqi xizmatlardan foydalanishi mumkin; harakatlar foydalanuvchi tasdig‘i bilan cheklanadi."
+    },
     {
       "id": "cline",
       "name": "Cline",
