@@ -30,6 +30,7 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 
 ## JARVISga o‘xshash yordamchilar
 
+- **Open.Jarvis** — Windows 10/11 uchun tayyor ish stoli yordamchisi nomzodi; xavfsizlik va amaliy sinov talab qiladi.
 - **Leon** va **OpenVoiceOS** — ovozli shaxsiy yordamchi yo‘nalishi.
 - **Khoj** — hujjatlar, xotira va internet izlashga yo‘naltirilgan yordamchi platforma.
 - **Agent Zero** — ko‘p bosqichli vazifalarni bajaruvchi avtonom agent; yuqori ruxsat xavfi sababli alohida muhitda sinovdan o‘tadi.
