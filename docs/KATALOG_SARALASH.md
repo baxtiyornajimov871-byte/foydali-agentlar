@@ -7,6 +7,7 @@
 | Loyiha | Turi | Nima uchun kerak |
 |---|---|---|
 | Hermes Agent | Umumiy agent | Kundalik vazifalar, ko‘nikmalar va turli vositalarni boshqarish |
+| Open.Jarvis | Windows uchun Jarvis yordamchisi | Ovozli/matnli buyruqlar va desktop amallari; xavfsizlik sinovi shart |
 | Open.Jarvis | Windows uchun Jarvis yordamchisi | Ovozli/matnli buyruqlar va desktop amallari; alohida muhitda xavfsizlik sinovi |
 | Leon | Jarvisga o‘xshash shaxsiy yordamchi | Kundalik yordamchi; 2.0 desktop ilovasi hali chiqarilmagan — keyin sinash |
 | OpenVoiceOS | Ovozli yordamchi platformasi | Ovoz orqali buyruqlar va ko‘nikmalar; Windows mosligi noma’lum, keyingi bosqich |
@@ -34,6 +35,7 @@
 | Leon | Ochiq manbali shaxsiy yordamchi | Ovozli buyruq va ko‘nikmalar yo‘nalishi; Windows’da amaliy sinov kerak |
 | OpenVoiceOS | Ovozli AI yordamchi platformasi | Modulli ovozli yordamchi; komponentlari alohida sozlanadi |
 | Khoj | Shaxsiy bilimlar bazasi va agentlar | Hujjatlar, internet izlash va rejalashtirish; AGPL-3.0 shartlari tekshiriladi |
+| Open.Jarvis | Windows ish stoli yordamchisi | Ovozli/matnli boshqaruv; klaviatura/sichqoncha ruxsatlari xavfsiz tekshiriladi |
 | Agent Zero | Avtonom vazifa bajaruvchi agent | Yuqori xavf; NOASSERTION litsenziya va sandbox tekshiruvi shart |
 | Letta / Mem0 | Agent xotirasi | Tayyor JARVIS emas; xotira qatlami sifatida ko‘riladi |
 | Skyvern / Stagehand | Brauzer avtomatlashtirish | Saytlar bilan amallarni bajarishi mumkin; tashqi harakatlar tasdiqlanadi |
