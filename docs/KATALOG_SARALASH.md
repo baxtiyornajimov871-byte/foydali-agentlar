@@ -24,8 +24,21 @@
 | AnythingLLM / MarkItDown / LlamaIndex | Hujjat va bilim bazasi | TATU materiallari, PDF, qidiruv va shaxsiy bilimlar bazasi |
 | Mem0 | Agent xotirasi | Shaxsiy yordamchining uzoq muddatli xotira qatlamini qo‘shish |
 | Ollama | Mahalliy model muhiti | Internetga ulanmasdan kichik modellarni sinash |
-| n8n / CrewAI / LangGraph / Agno / Pydantic AI / Dify | Avtomatlashtirish va agent yaratish | O‘zaro bog‘langan maxsus agentlar yaratish |
+| n8n / CrewAI / LangGraph / Agno / Pydantic AI / Dify / Google ADK / Semantic Kernel | Avtomatlashtirish va agent yaratish | O‘zaro bog‘langan maxsus agentlar yaratish |
 | ComfyUI / yt-dlp / RVC | Media vositalari | Rasm, video va ruxsatli media ish jarayonlari |
+
+## JARVISga o‘xshash yordamchi yo‘nalishi
+
+| Loyiha | Vazifasi | Baholash |
+|---|---|---|
+| Leon | Ochiq manbali shaxsiy yordamchi | Ovozli buyruq va ko‘nikmalar yo‘nalishi; Windows’da amaliy sinov kerak |
+| OpenVoiceOS | Ovozli AI yordamchi platformasi | Modulli ovozli yordamchi; komponentlari alohida sozlanadi |
+| Khoj | Shaxsiy bilimlar bazasi va agentlar | Hujjatlar, internet izlash va rejalashtirish; AGPL-3.0 shartlari tekshiriladi |
+| Agent Zero | Avtonom vazifa bajaruvchi agent | Yuqori xavf; NOASSERTION litsenziya va sandbox tekshiruvi shart |
+| Letta / Mem0 | Agent xotirasi | Tayyor JARVIS emas; xotira qatlami sifatida ko‘riladi |
+| Skyvern / Stagehand | Brauzer avtomatlashtirish | Saytlar bilan amallarni bajarishi mumkin; tashqi harakatlar tasdiqlanadi |
+
+Maqsad — bu loyihalarni birdaniga o‘rnatish emas. Avval eng foydali imkoniyatlarni ajratib, yagona o‘zbekcha Windows boshqaruv dasturiga xavfsiz ulash yo‘lini sinash.
 
 ## Qurilmaga moslik bo‘yicha ogohlantirish
 
