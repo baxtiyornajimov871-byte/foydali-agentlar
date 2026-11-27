@@ -28,6 +28,16 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 - Ularning barchasi o‘rnatilmagan; Windows mosligi va resurs sarfi alohida sinovdan o‘tadi.
 - `project_type` maydoni haqiqiy agentni, frameworkni, model muhitini va yordamchi vositani farqlaydi.
 
+## JARVISga o‘xshash yordamchilar
+
+- **Leon** va **OpenVoiceOS** — ovozli shaxsiy yordamchi yo‘nalishi.
+- **Khoj** — hujjatlar, xotira va internet izlashga yo‘naltirilgan yordamchi platforma.
+- **Agent Zero** — ko‘p bosqichli vazifalarni bajaruvchi avtonom agent; yuqori ruxsat xavfi sababli alohida muhitda sinovdan o‘tadi.
+- **Letta** va **Mem0** — agent xotirasi uchun qo‘shimcha platforma/komponentlar.
+- **Skyvern** va **Stagehand** — brauzer ishlarini avtomatlashtirish vositalari.
+
+Bu loyihalar tayyor yagona JARVIS dasturi degani emas. Ularning mos imkoniyatlari keyinchalik bitta o‘zbekcha Windows ilovasiga xavfsiz integratsiya qilish uchun baholanadi.
+
 ## Birinchi qo‘shilgan asosiy agent
 
 - **Hermes Agent** — umumiy shaxsiy yordamchi. Rasmiy repozitoriyada native Windows o‘rnatish yo‘li ko‘rsatilgan. Hozircha katalogga kiritilgan, lekin noutbukga o‘rnatilmagan va amaliy sinovdan o‘tmagan.
