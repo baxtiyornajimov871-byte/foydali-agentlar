@@ -1,12 +1,14 @@
 # Agentlar katalogi — saralash va ustuvorlik
 
-2026-11-27 holatiga katalogda 24 ta loyiha bor. Bu son mustaqil agentlar soni emas: ro‘yxatda agentlar bilan birga framework, model ishga tushirish muhiti va media/hujjat vositalari ham bor.
+2026-11-27 holatiga katalogda 28 ta loyiha bor. Bu son mustaqil agentlar soni emas: ro‘yxatda agentlar bilan birga framework, model ishga tushirish muhiti va media/hujjat vositalari ham bor.
 
 ## Hozirgi ehtiyojlar uchun birinchi navbat
 
 | Loyiha | Turi | Nima uchun kerak |
 |---|---|---|
 | Hermes Agent | Umumiy agent | Kundalik vazifalar, ko‘nikmalar va turli vositalarni boshqarish |
+| Leon | Jarvisga o‘xshash shaxsiy yordamchi | Kundalik yordamchi; 2.0 desktop ilovasi hali alpha emas, tayyor emas — keyin sinash |
+| OpenVoiceOS | Ovozli yordamchi platformasi | Ovoz orqali buyruqlar va ko‘nikmalar; Windows mosligi noma’lum, keyingi bosqich |
 | Cline / Continue / Aider | Kodlash agentlari | Mavjud GitHub loyihalarini ishlab chiqish va tuzatish |
 | OpenHands | Kodlash agenti | Katta vazifalarni alohida test muhitida bajarish |
 | Browser Use | Brauzer agenti | Internetdagi takroriy ishlar va izlanish |
@@ -17,7 +19,8 @@
 
 | Loyiha | Turi | Nima uchun kerak |
 |---|---|---|
-| AnythingLLM / MarkItDown | Hujjat va bilim bazasi | TATU materiallari, PDF va shaxsiy bilimlar bazasi |
+| AnythingLLM / MarkItDown / LlamaIndex | Hujjat va bilim bazasi | TATU materiallari, PDF, qidiruv va shaxsiy bilimlar bazasi |
+| Mem0 | Agent xotirasi | Shaxsiy yordamchining uzoq muddatli xotira qatlamini qo‘shish |
 | Ollama | Mahalliy model muhiti | Internetga ulanmasdan kichik modellarni sinash |
 | n8n / CrewAI / LangGraph / Agno / Pydantic AI / Dify | Avtomatlashtirish va agent yaratish | O‘zaro bog‘langan maxsus agentlar yaratish |
 | ComfyUI / yt-dlp / RVC | Media vositalari | Rasm, video va ruxsatli media ish jarayonlari |
