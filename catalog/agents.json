@@ -558,6 +558,21 @@
       "risk": "o‘rta",
       "notes": "Skanerlangan ma’ruza, jadval va hujjatlardan matn olish uchun foydali. 16 GB RAM va integratsiyalashgan Radeon’da yengil CPU sinovidan boshlash kerak; o‘zi agent emas.",
       "project_type": "hujjat_vositasi"
+    },
+    {
+      "id": "open-jarvis",
+      "name": "Open.Jarvis",
+      "category": "shaxsiy_yordamchi",
+      "priority": "hozir_sinov",
+      "purpose": "Windows 10/11 uchun Jarvis ruhidagi ish stoli yordamchisi: ovozli va matnli buyruqlar, ilovalarni ochish, brauzer, klaviatura/sichqoncha amallari, mahalliy xotira va ixtiyoriy bulutli AI.",
+      "repository": "https://github.com/dmrr35/Open.Jarvis",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "README’da Windows 10/11 asosiy platforma sifatida ko‘rsatilgan; HP Pavilion’da alohida muhitda amaliy sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Loyiha README’sida v1.0.0 stable release va xavfsizlik tekshiruvlari qayd etilgan. Wake-word Jarvis, lokal buyruq yo‘naltirish va xotira bor. Desktop automation klaviatura, sichqoncha va clipboardga ta’sir qilishi mumkin; avval kod va ruxsatlar tekshirilsin, kundalik ish papkalariga keng ruxsat berilmasin. Yangi va kichik hamjamiyatli loyiha, mustaqil audit talab etiladi.",
+      "project_type": "agent"
     }
   ]
 }
