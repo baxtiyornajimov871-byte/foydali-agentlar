@@ -16,15 +16,40 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 
 ## Hozirgi bosqich
 
-1. Agentlar katalogining boshlang‘ich ro‘yxatini tuzish.
-2. Har bir manbaning litsenziyasi va Windows o‘rnatish talablarini tekshirish.
-3. O‘rnatish va ishga tushirish mexanizmini loyihalash.
-4. Windows desktop interfeysini yaratish.
-5. Agentlarni alohida-alohida sinovdan o‘tkazish.
+1. GitHub’dagi rasmiy agent manbalarini katalogga kiritish.
+2. Litsenziya, Windows mosligi, resurs talabi va xavfsizlikni tekshirish.
+3. Har bir agent uchun alohida o‘rnatish yo‘riqnomasi va tekshiruv ro‘yxatini tayyorlash.
+4. O‘rnatishdan oldin foydalanuvchiga yuklama va ruxsatlarni ko‘rsatadigan mexanizm yaratish.
+5. Windows desktop interfeysini yaratish va agentlarni bittadan sinash.
+
+## Katalogning hozirgi holati
+
+- 38 ta loyiha katalogga kiritilgan.
+- Ularning barchasi o‘rnatilmagan; Windows mosligi va resurs sarfi alohida sinovdan o‘tadi.
+- `project_type` maydoni haqiqiy agentni, frameworkni, model muhitini va yordamchi vositani farqlaydi.
+
+## JARVISga o‘xshash yordamchilar
+
+- **Open.Jarvis** — Windows 10/11 uchun tayyor ish stoli yordamchisi nomzodi; xavfsizlik va amaliy sinov talab qiladi.
+- **Leon** va **OpenVoiceOS** — ovozli shaxsiy yordamchi yo‘nalishi.
+- **Khoj** — hujjatlar, xotira va internet izlashga yo‘naltirilgan yordamchi platforma.
+- **Agent Zero** — ko‘p bosqichli vazifalarni bajaruvchi avtonom agent; yuqori ruxsat xavfi sababli alohida muhitda sinovdan o‘tadi.
+- **Letta** va **Mem0** — agent xotirasi uchun qo‘shimcha platforma/komponentlar.
+- **Skyvern** va **Stagehand** — brauzer ishlarini avtomatlashtirish vositalari.
+
+Bu loyihalar tayyor yagona JARVIS dasturi degani emas. Ularning mos imkoniyatlari keyinchalik bitta o‘zbekcha Windows ilovasiga xavfsiz integratsiya qilish uchun baholanadi.
+
+## Birinchi qo‘shilgan asosiy agent
+
+- **Hermes Agent** — umumiy shaxsiy yordamchi. Rasmiy repozitoriyada native Windows o‘rnatish yo‘li ko‘rsatilgan. Hozircha katalogga kiritilgan, lekin noutbukga o‘rnatilmagan va amaliy sinovdan o‘tmagan.
+- Rasmiy manba: https://github.com/NousResearch/hermes-agent
+- O‘rnatish faqat alohida tekshiruv va foydalanuvchi tasdig‘idan keyin amalga oshiriladi.
 
 ## Katalog
 
-Boshlang‘ich agentlar ro‘yxati: [catalog/agents.json](catalog/agents.json)
+Hozirgi katalogda **38 ta loyiha** bor: agentlar, agent frameworklari, mahalliy model muhiti va yordamchi media/hujjat vositalari. Ro‘yxat: [catalog/agents.json](catalog/agents.json)
+
+Yangi qo‘shilgan loyihalar bo‘yicha qisqa saralash: [docs/KATALOG_SARALASH.md](docs/KATALOG_SARALASH.md)
 
 Tanlash va xavfsizlik qoidalari: [docs/AGENT_TANLASH_QOIDALARI.md](docs/AGENT_TANLASH_QOIDALARI.md)
 

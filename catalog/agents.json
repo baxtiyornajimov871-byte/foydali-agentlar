@@ -2,8 +2,23 @@
   "schema_version": "1.0.0",
   "language": "uz",
   "last_reviewed": "2026-11-27",
-  "note": "Bu boshlang‘ich nomzodlar katalogi. Ro‘yxatga kirish o‘rnatishga tayyor yoki Windows’da sinovdan o‘tgan degani emas.",
+  "note": "Katalogda agentlar bilan birga ularni qo‘llab-quvvatlovchi framework, model ishga tushirish muhiti va media/hujjat vositalari ham bor. project_type ularning vazifasini farqlaydi. Barchasi katalog nomzodi; o‘rnatilgan yoki mahalliy sinovdan o‘tgan degani emas. Tashqi kodlar nusxalanmaydi, rasmiy manbalari ko‘rsatiladi.",
   "agents": [
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "category": "shaxsiy_yordamchi",
+      "priority": "hozir",
+      "purpose": "Umumiy shaxsiy AI yordamchi: xotira, ko‘nikmalar, vazifalarni bajarish, internet va boshqa vositalar bilan ishlash.",
+      "repository": "https://github.com/NousResearch/hermes-agent",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "rasmiy manbada Windows native qo‘llab-quvvatlanadi; amaliy sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Rasmiy PowerShell o‘rnatuvchisi Python 3.14, Node.js, npm, pnpm, ripgrep va FFmpeg kabi bog‘liqliklarni boshqaradi. O‘rnatishdan oldin yuklamalar, disk hajmi va buyruqlar tekshiriladi. Agent terminal, brauzer va tashqi xizmatlardan foydalanishi mumkin; harakatlar foydalanuvchi tasdig‘i bilan cheklanadi.",
+      "project_type": "agent"
+    },
     {
       "id": "cline",
       "name": "Cline",
@@ -16,7 +31,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "yuqori",
-      "notes": "Fayl va terminal amallarini bajarishi mumkin; ruxsatlar cheklanishi shart."
+      "notes": "Fayl va terminal amallarini bajarishi mumkin; ruxsatlar cheklanishi shart.",
+      "project_type": "agent"
     },
     {
       "id": "aider",
@@ -30,7 +46,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Git repozitoriyasida alohida sinovdan o‘tkaziladi."
+      "notes": "Git repozitoriyasida alohida sinovdan o‘tkaziladi.",
+      "project_type": "agent"
     },
     {
       "id": "browser-use",
@@ -44,7 +61,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "yuqori",
-      "notes": "Kirish ma’lumotlari, xarid va yuborish amallari uchun alohida tasdiq talab qilinadi."
+      "notes": "Kirish ma’lumotlari, xarid va yuborish amallari uchun alohida tasdiq talab qilinadi.",
+      "project_type": "agent"
     },
     {
       "id": "wazuh",
@@ -58,7 +76,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "yuqori",
-      "notes": "Litsenziya va Windows agent/server arxitekturasi rasmiy hujjatlar orqali tekshiriladi."
+      "notes": "Litsenziya va Windows agent/server arxitekturasi rasmiy hujjatlar orqali tekshiriladi.",
+      "project_type": "xavfsizlik_vositasi"
     },
     {
       "id": "f5-tts",
@@ -72,7 +91,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "GPU xotirasi va mahalliy resurs talabi alohida baholanadi."
+      "notes": "GPU xotirasi va mahalliy resurs talabi alohida baholanadi.",
+      "project_type": "media_vositasi"
     },
     {
       "id": "openvoice",
@@ -86,7 +106,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "yuqori",
-      "notes": "Faqat egasining roziligi olingan ovozlardan foydalanish kerak."
+      "notes": "Faqat egasining roziligi olingan ovozlardan foydalanish kerak.",
+      "project_type": "media_vositasi"
     },
     {
       "id": "anythingllm",
@@ -100,7 +121,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "manba tekshiruvi kerak",
       "risk": "o‘rta",
-      "notes": "Repo manzili, litsenziya va Windows o‘rnatish yo‘li tasdiqlanmaguncha o‘rnatilmaydi."
+      "notes": "Repo manzili, litsenziya va Windows o‘rnatish yo‘li tasdiqlanmaguncha o‘rnatilmaydi.",
+      "project_type": "agent_platform"
     },
     {
       "id": "n8n",
@@ -114,7 +136,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Fair-code litsenziya shartlari sababli tijoriy foydalanish alohida tekshiriladi."
+      "notes": "Fair-code litsenziya shartlari sababli tijoriy foydalanish alohida tekshiriladi.",
+      "project_type": "avtomatlashtirish_platformasi"
     },
     {
       "id": "crewai",
@@ -128,7 +151,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Dastlab kichik, nazoratli vazifalarda sinovdan o‘tkaziladi."
+      "notes": "Dastlab kichik, nazoratli vazifalarda sinovdan o‘tkaziladi.",
+      "project_type": "agent_framework"
     },
     {
       "id": "langgraph",
@@ -142,7 +166,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Ko‘proq o‘z agentlarimizni yaratish uchun ishlab chiquvchi asbobi."
+      "notes": "Ko‘proq o‘z agentlarimizni yaratish uchun ishlab chiquvchi asbobi.",
+      "project_type": "agent_framework"
     },
     {
       "id": "pydantic-ai",
@@ -156,7 +181,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "past",
-      "notes": "Yangi ichki agentlarni ishlab chiqish uchun kutubxona."
+      "notes": "Yangi ichki agentlarni ishlab chiqish uchun kutubxona.",
+      "project_type": "agent_framework"
     },
     {
       "id": "agno",
@@ -170,7 +196,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Mahalliy boshqaruv va tashqi xizmatlarga bog‘liqlik tekshiriladi."
+      "notes": "Mahalliy boshqaruv va tashqi xizmatlarga bog‘liqlik tekshiriladi.",
+      "project_type": "agent_framework"
     },
     {
       "id": "osquery",
@@ -184,7 +211,8 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "o‘rta",
-      "notes": "Bu mustaqil suhbat agenti emas, tizim kuzatuv vositasi."
+      "notes": "Bu mustaqil suhbat agenti emas, tizim kuzatuv vositasi.",
+      "project_type": "xavfsizlik_vositasi"
     },
     {
       "id": "rvc",
@@ -198,7 +226,353 @@
       "windows_status": "tekshirish kerak",
       "install_status": "katalogda",
       "risk": "yuqori",
-      "notes": "Model fayllari, kelib chiqishi va ovoz egasining roziligi tekshiriladi."
+      "notes": "Model fayllari, kelib chiqishi va ovoz egasining roziligi tekshiriladi.",
+      "project_type": "media_vositasi"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "category": "dasturlash",
+      "priority": "hozir",
+      "project_type": "agent",
+      "purpose": "Dasturiy loyihalarni tahlil qilish, kod yozish, terminal va ishlab chiqish muhitida vazifalarni bajarishga mo‘ljallangan kodlash agenti.",
+      "repository": "https://github.com/OpenHands/OpenHands",
+      "license": "MIT",
+      "language": "TypeScript",
+      "windows_status": "Docker yoki boshqa muhit orqali ishlatish yo‘li tekshiriladi; native Windows sinovi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Keng fayl va terminal ruxsatlari talab qilishi mumkin. Avval alohida test loyihasi va cheklangan muhitda sinash kerak."
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "category": "dasturlash",
+      "priority": "hozir",
+      "project_type": "agent",
+      "purpose": "VS Code va boshqa ishlab chiqish muhiti ichida kodni tushunish, tahrirlash va AI yordamida dasturlash.",
+      "repository": "https://github.com/continuedev/continue",
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "windows_status": "VS Code orqali Windows’da ishlatish imkoniyati tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Model/API sozlamalari talab qilinishi mumkin. Kod o‘zgartirishlari Git orqali nazorat qilinadi."
+    },
+    {
+      "id": "whisperx",
+      "name": "WhisperX",
+      "category": "ovoz_va_transkripsiya",
+      "priority": "hozir",
+      "project_type": "media_vositasi",
+      "purpose": "Ovozli yozuvlarni matnga aylantirish, so‘z darajasida vaqt belgilarini va diarizatsiyani olish.",
+      "repository": "https://github.com/m-bain/whisperX",
+      "license": "BSD-2-Clause",
+      "language": "Python",
+      "windows_status": "Windows muhitida bog‘liqliklar va apparat tezlatishi sinovdan o‘tkaziladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "VOICE_ANALYSIS ish jarayonidagi transkripsiya va vaqt kodlari uchun foydali. Diarizatsiya ayrim qo‘shimcha model/token talablarini keltirib chiqarishi mumkin."
+    },
+    {
+      "id": "faster-whisper",
+      "name": "faster-whisper",
+      "category": "ovoz_va_transkripsiya",
+      "priority": "hozir",
+      "project_type": "media_vositasi",
+      "purpose": "Whisper asosida audio transkripsiyasini samaraliroq bajarish.",
+      "repository": "https://github.com/SYSTRAN/faster-whisper",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "Windows’da Python orqali o‘rnatish yo‘li mavjud; mahalliy muhitda sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "CPU va GPU rejimlari mavjud. 16 GB RAM va integratsiyalashgan grafikada kichik modeldan boshlash kerak."
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "category": "mahalliy_ai",
+      "priority": "hozir",
+      "project_type": "model_ishlatish_muhiti",
+      "purpose": "Mahalliy til modellarini yuklab olish va kompyuterda ishga tushirish; boshqa agentlar uchun lokal model xizmati berish.",
+      "repository": "https://github.com/ollama/ollama",
+      "license": "MIT",
+      "language": "Go",
+      "windows_status": "Windows uchun rasmiy ilova mavjud; qurilma resursi bo‘yicha model tanlash kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Ollama mustaqil agent emas, mahalliy model ishga tushirish muhiti. 16 GB RAM sababli kichik quantized modellardan foydalanish tavsiya etiladi."
+    },
+    {
+      "id": "markitdown",
+      "name": "MarkItDown",
+      "category": "talim_va_hujjatlar",
+      "priority": "keyin",
+      "project_type": "hujjat_vositasi",
+      "purpose": "PDF, Office va boshqa fayllarni Markdown matniga aylantirib, AI agentlar tahliliga tayyorlash.",
+      "repository": "https://github.com/microsoft/markitdown",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "Python orqali Windows’da ishlatish mumkinligi tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "past",
+      "notes": "TATU materiallari, hujjatlar va agentlar uchun matn tayyorlash vositasi; o‘zi suhbat agenti emas."
+    },
+    {
+      "id": "yt-dlp",
+      "name": "yt-dlp",
+      "category": "youtube_va_media",
+      "priority": "keyin",
+      "project_type": "media_vositasi",
+      "purpose": "Ruxsat etilgan manbalardan video va audio fayllarni olish hamda media ish jarayonlariga uzatish.",
+      "repository": "https://github.com/yt-dlp/yt-dlp",
+      "license": "Unlicense",
+      "language": "Python",
+      "windows_status": "Windows’da ishlatish mumkin; FFmpeg bilan integratsiya sinovdan o‘tkaziladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Agent emas, media vositasi. Faqat foydalanuvchi huquqiga ega yoki yuklab olishga ruxsat berilgan kontent bilan ishlatish kerak."
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "category": "video_va_ijod",
+      "priority": "keyin",
+      "project_type": "media_platformasi",
+      "purpose": "Tugunli ish oqimlari orqali rasm va video generatsiya jarayonlarini boshqarish.",
+      "repository": "https://github.com/Comfy-Org/ComfyUI",
+      "license": "GPL-3.0",
+      "language": "Python",
+      "windows_status": "Windows’da ishlatish yo‘li mavjud; integratsiyalashgan GPU bilan unumdorlik cheklangan",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Katta modellar va VRAM talab qiladi. Ryzen 7 7730U integratsiyalashgan Radeon qurilmasida og‘ir generatsiya amaliy bo‘lmasligi mumkin; hozircha keyingi bosqich."
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "agent_yaratish",
+      "priority": "keyin",
+      "project_type": "agent_platformasi",
+      "purpose": "AI agentlar, RAG bilim bazalari va avtomatlashtirilgan ish oqimlarini yaratish hamda boshqarish.",
+      "repository": "https://github.com/langgenius/dify",
+      "license": "NOASSERTION — litsenziya faylini alohida tekshirish kerak",
+      "language": "Python",
+      "windows_status": "Docker orqali ishga tushirish ssenariysi tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Litsenziya va self-hosted talablar aniqlanmaguncha tijoriy foydalanishga ruxsatli deb hisoblanmaydi."
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "category": "shaxsiy_yordamchi",
+      "priority": "keyin",
+      "purpose": "Jarvisga o‘xshash ochiq kodli shaxsiy yordamchi: kundalik vazifalar, ko‘nikmalar va shaxsiy AI tajribasi. Loyiha 2.0 desktop ilovasiga tayyorlanmoqda.",
+      "repository": "https://github.com/leon-ai/leon",
+      "license": "MIT",
+      "language": "TypeScript",
+      "windows_status": "2.0 desktop ilovasi hali alpha sifatida tayyorlanmoqda; Windows native qo‘llovi amaliy tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "README bo‘yicha 2.0 desktop ilovasi hali chiqarilmagan; develop tarmog‘idagi web preview yakunlanmagan. Hozir darhol asosiy yordamchi sifatida o‘rnatilmaydi.",
+      "project_type": "agent"
+    },
+    {
+      "id": "openvoiceos",
+      "name": "OpenVoiceOS (OVOS)",
+      "category": "ovozli_yordamchi",
+      "priority": "keyin",
+      "purpose": "Ovoz orqali buyruq qabul qiladigan, ko‘nikmalar bilan kengayadigan ochiq kodli ovozli yordamchi platformasi.",
+      "repository": "https://github.com/OpenVoiceOS/ovos-core",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Asosan Linux va aqlli qurilmalar uchun yo‘naltirilgan; Windows’da to‘liq ishga tushishi tasdiqlanmagan",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Bu bitta tayyor Windows Jarvis dasturi emas, markaziy yadro va alohida ko‘nikmalardan tuziladigan platforma. Sinov uchun alohida muhit talab qilinadi.",
+      "project_type": "agent_platform"
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "category": "agent_xotirasi",
+      "priority": "keyin",
+      "purpose": "AI agentlar uchun uzoq muddatli xotira qatlamini taqdim etadi; foydalanuvchi afzalliklari va oldingi suhbatlardan kerakli kontekstni saqlashga yordam beradi.",
+      "repository": "https://github.com/mem0ai/mem0",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Python orqali ishlatish yo‘li mavjud; ma’lumotlar bazasi va model xizmatlari sozlanishi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Mustaqil suhbat agenti emas, Hermes yoki o‘zimiz yaratadigan yordamchi kabi agentlarga ulanishi mumkin bo‘lgan xotira infratuzilmasi. Maxfiy ma’lumotlarni saqlash siyosati alohida belgilanadi.",
+      "project_type": "agent_xotira_vositasi"
+    },
+    {
+      "id": "llama-index",
+      "name": "LlamaIndex",
+      "category": "talim_va_hujjatlar",
+      "priority": "keyin",
+      "purpose": "PDF, hujjatlar va boshqa ma’lumot manbalarini AI uchun indekslash, qidirish (RAG) va hujjatga tayangan agentlar yaratish.",
+      "repository": "https://github.com/run-llama/llama_index",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "Python orqali Windows’da ishlatish imkoniyati bor; bog‘liqliklar va model tanlovi sinovdan o‘tkaziladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "TATU dars materiallari, loyiha hujjatlari va shaxsiy bilimlar bazasi uchun foydali. Loyiha hozir hujjatlarni ajratib olish va parsing yo‘nalishiga ham katta e’tibor qaratmoqda; mustaqil tayyor yordamchi emas.",
+      "project_type": "agent_framework"
+    },
+    {
+      "id": "agent-zero",
+      "name": "Agent Zero",
+      "category": "shaxsiy_yordamchi_va_avtonom_agent",
+      "priority": "keyin",
+      "purpose": "Ko‘p bosqichli vazifalarni rejalashtirish, vositalardan foydalanish va ish jarayonini bajarishga mo‘ljallangan avtonom agent muhiti.",
+      "repository": "https://github.com/agent0ai/agent-zero",
+      "license": "NOASSERTION — litsenziya faylini tekshirish kerak",
+      "language": "Python",
+      "windows_status": "Docker yoki boshqa ajratilgan muhitda ishlatish yo‘li tekshiriladi; native Windows sinovi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "JARVISga o‘xshash mustaqil vazifa bajaruvchi agent sifatida qiziqarli. Terminal va vositalarga keng ruxsat berishi mumkin; faqat cheklangan test muhitida, har bir tashqi amal tasdiqlangan holda sinash kerak.",
+      "project_type": "agent"
+    },
+    {
+      "id": "khoj",
+      "name": "Khoj",
+      "category": "shaxsiy_yordamchi_va_bilimlar",
+      "priority": "keyin",
+      "purpose": "Hujjatlar va internet bo‘yicha izlash, shaxsiy bilimlar bazasi, maxsus agentlar va rejalashtirilgan avtomatlashtirishni birlashtiruvchi AI yordamchi.",
+      "repository": "https://github.com/khoj-ai/khoj",
+      "license": "AGPL-3.0",
+      "language": "Python",
+      "windows_status": "Self-hosted/Docker yo‘li tekshiriladi; Windows’da resurs va o‘rnatish sinovi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "JARVISning xotira va hujjatlar bilan ishlash tomoniga mos. AGPL-3.0 litsenziyasi sababli kodni o‘zgartirib tarqatish yoki xizmat sifatida taklif qilishdan oldin shartlari o‘rganiladi.",
+      "project_type": "agent_platformasi"
+    },
+    {
+      "id": "letta",
+      "name": "Letta",
+      "category": "agent_xotirasi",
+      "priority": "keyin",
+      "purpose": "Uzoq muddatli xotiraga va holatni saqlashga ega agentlarni yaratish hamda boshqarish platformasi.",
+      "repository": "https://github.com/letta-ai/letta",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Server/Docker orqali ishlatish ssenariysi tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "JARVISga o‘xshash yordamchida suhbat va vazifa kontekstini saqlash uchun foydali komponent. O‘zi tayyor Windows desktop yordamchisi emas.",
+      "project_type": "agent_platformasi"
+    },
+    {
+      "id": "skyvern",
+      "name": "Skyvern",
+      "category": "internet_va_brauzer",
+      "priority": "keyin",
+      "purpose": "Brauzer orqali veb-saytlardagi takroriy ish jarayonlarini AI yordamida avtomatlashtirish.",
+      "repository": "https://github.com/Skyvern-AI/skyvern",
+      "license": "AGPL-3.0",
+      "language": "Python",
+      "windows_status": "Docker va server talablari tekshiriladi; Windows 11’da amaliy sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Saytga kirish, shakl to‘ldirish va boshqa tashqi amallarni bajarishi mumkin. Login, yuborish, xarid yoki o‘chirish kabi amallar alohida tasdiqsiz bajarilmasligi kerak. AGPL-3.0 shartlari tekshiriladi.",
+      "project_type": "agent"
+    },
+    {
+      "id": "stagehand",
+      "name": "Stagehand",
+      "category": "internet_va_brauzer",
+      "priority": "keyin",
+      "purpose": "AI yordamida brauzer sahifalaridan ma’lumot olish va veb-interfeyslar bilan ishlash uchun dasturchilar vositasi.",
+      "repository": "https://github.com/browserbase/stagehand",
+      "license": "MIT",
+      "language": "TypeScript",
+      "windows_status": "Node.js orqali Windows’da ishlatish yo‘li tekshiriladi; ayrim imkoniyatlar tashqi brauzer xizmatiga bog‘liq bo‘lishi mumkin",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Tayyor shaxsiy yordamchi emas; FOYDALI AGENTLAR ichidagi brauzer agentini yaratish yoki kengaytirishda ishlatilishi mumkin.",
+      "project_type": "agent_framework"
+    },
+    {
+      "id": "google-adk-python",
+      "name": "Google Agent Development Kit (ADK)",
+      "category": "agent_yaratish",
+      "priority": "keyin",
+      "purpose": "Python’da AI agentlarni yaratish, sinash va ishga tushirish uchun ishlab chiqish to‘plami.",
+      "repository": "https://github.com/google/adk-python",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Python orqali Windows’da ishlatish yo‘li tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "JARVISga o‘xshash maxsus agentlarni o‘zimiz yaratish uchun framework; o‘zi tayyor shaxsiy yordamchi emas.",
+      "project_type": "agent_framework"
+    },
+    {
+      "id": "semantic-kernel",
+      "name": "Microsoft Semantic Kernel",
+      "category": "agent_yaratish",
+      "priority": "keyin",
+      "purpose": "AI modellar, plaginlar va agent imkoniyatlarini .NET hamda Python ilovalariga ulash uchun SDK.",
+      "repository": "https://github.com/microsoft/semantic-kernel",
+      "license": "MIT",
+      "language": "C# va Python",
+      "windows_status": "Windows va .NET muhitiga mos; amaliy integratsiya sinovi kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Kelajakdagi FOYDALI AGENTLAR desktop ilovasiga agent va vositalarni ulash uchun foydali ishlab chiqish vositasi.",
+      "project_type": "agent_framework"
+    },
+    {
+      "id": "docling",
+      "name": "Docling",
+      "category": "talim_va_hujjatlar",
+      "priority": "keyin",
+      "purpose": "PDF va boshqa hujjatlarni AI tahliliga tayyor bo‘lgan tuzilgan matn va ma’lumotlarga aylantirish.",
+      "repository": "https://github.com/docling-project/docling",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "Python orqali Windows’da ishlatish yo‘li tekshiriladi; ayrim modellarning resurs talabi baholanadi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "past",
+      "notes": "TATU dars materiallari, PDF va skanerlangan hujjatlarni agentlarga tushunarli shaklga keltirishda foydali; o‘zi agent emas.",
+      "project_type": "hujjat_vositasi"
+    },
+    {
+      "id": "paddleocr",
+      "name": "PaddleOCR",
+      "category": "talim_va_hujjatlar",
+      "priority": "keyin",
+      "purpose": "Rasm va PDF sahifalaridan matnni tanib olish va hujjatlarni tuzilgan ma’lumotga aylantirish.",
+      "repository": "https://github.com/PaddlePaddle/PaddleOCR",
+      "license": "Apache-2.0",
+      "language": "Python",
+      "windows_status": "Windows o‘rnatish va CPU/GPU bog‘liqliklari tekshiriladi",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "o‘rta",
+      "notes": "Skanerlangan ma’ruza, jadval va hujjatlardan matn olish uchun foydali. 16 GB RAM va integratsiyalashgan Radeon’da yengil CPU sinovidan boshlash kerak; o‘zi agent emas.",
+      "project_type": "hujjat_vositasi"
+    },
+    {
+      "id": "open-jarvis",
+      "name": "Open.Jarvis",
+      "category": "shaxsiy_yordamchi",
+      "priority": "hozir_sinov",
+      "purpose": "Windows 10/11 uchun Jarvis ruhidagi ish stoli yordamchisi: ovozli va matnli buyruqlar, ilovalarni ochish, brauzer, klaviatura/sichqoncha amallari, mahalliy xotira va ixtiyoriy bulutli AI.",
+      "repository": "https://github.com/dmrr35/Open.Jarvis",
+      "license": "MIT",
+      "language": "Python",
+      "windows_status": "README’da Windows 10/11 asosiy platforma sifatida ko‘rsatilgan; HP Pavilion’da alohida muhitda amaliy sinov kerak",
+      "install_status": "katalogga qo‘shildi; o‘rnatilmagan",
+      "risk": "yuqori",
+      "notes": "Loyiha README’sida v1.0.0 stable release va xavfsizlik tekshiruvlari qayd etilgan. Wake-word Jarvis, lokal buyruq yo‘naltirish va xotira bor. Desktop automation klaviatura, sichqoncha va clipboardga ta’sir qilishi mumkin; avval kod va ruxsatlar tekshirilsin, kundalik ish papkalariga keng ruxsat berilmasin. Yangi va kichik hamjamiyatli loyiha, mustaqil audit talab etiladi.",
+      "project_type": "agent"
     }
   ]
 }
