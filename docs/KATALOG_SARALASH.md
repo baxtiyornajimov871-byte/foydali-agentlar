@@ -1,6 +1,6 @@
 # Agentlar katalogi — saralash va ustuvorlik
 
-2026-11-27 holatiga katalogda 30 ta loyiha bor. Bu son mustaqil agentlar soni emas: ro‘yxatda agentlar bilan birga framework, model ishga tushirish muhiti va media/hujjat vositalari ham bor.
+2026-11-27 holatiga katalogda 38 ta loyiha bor. Bu son mustaqil agentlar soni emas: ro‘yxatda agentlar bilan birga framework, model ishga tushirish muhiti va media/hujjat vositalari ham bor.
 
 ## Hozirgi ehtiyojlar uchun birinchi navbat
 
@@ -25,7 +25,7 @@
 | Mem0 | Agent xotirasi | Shaxsiy yordamchining uzoq muddatli xotira qatlamini qo‘shish |
 | Ollama | Mahalliy model muhiti | Internetga ulanmasdan kichik modellarni sinash |
 | n8n / CrewAI / LangGraph / Agno / Pydantic AI / Dify / Google ADK / Semantic Kernel | Avtomatlashtirish va agent yaratish | O‘zaro bog‘langan maxsus agentlar yaratish |
-| ComfyUI / yt-dlp / RVC | Media vositalari | Rasm, video va ruxsatli media ish jarayonlari |
+| ComfyUI / yt-dlp / RVC / Docling / PaddleOCR | Media vositalari | Rasm, video va ruxsatli media ish jarayonlari |
 
 ## JARVISga o‘xshash yordamchi yo‘nalishi
 
@@ -49,6 +49,7 @@ HP Pavilion 15 (Ryzen 7 7730U, 16 GB RAM, integratsiyalashgan Radeon) uchun og�
 - Litsenziya GitHub API metadata’dan olingan; `NOASSERTION` yoki aniqlashtirish kerak bo‘lganlari alohida tekshirilishi shart.
 - GitHub’dagi `archived=true` loyihalar yangi o‘rnatish uchun tavsiya qilinmaydi.
 - Roo Code, Flowise va Microsoft AutoGen ushbu yangilanishga kiritilmadi: tekshiruv paytida arxivlangan deb ko‘rindi.
+- Semantic Kernel README’si Microsoft Agent Framework’ni uning vorisi deb ko‘rsatadi; yangi ishlab chiqishda Agent Framework’ni alohida tekshirish, Semantic Kernel’ni esa mavjud kodlar bilan moslik uchun saqlash kerak.
 - Tashqi repozitoriyalarning kodi ko‘chirilmaydi. FOYDALI AGENTLAR faqat rasmiy manba, metama’lumot va o‘rnatish yo‘riqnomasini saqlaydi.
 - Katalogga qo‘shish o‘rnatish, xavfsizlik auditi yoki Windows sinovidan o‘tganini anglatmaydi.
 
