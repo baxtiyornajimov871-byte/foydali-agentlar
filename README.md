@@ -24,7 +24,7 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 
 ## Katalogning hozirgi holati
 
-- 30 ta loyiha katalogga kiritilgan.
+- 38 ta loyiha katalogga kiritilgan.
 - Ularning barchasi o‘rnatilmagan; Windows mosligi va resurs sarfi alohida sinovdan o‘tadi.
 - `project_type` maydoni haqiqiy agentni, frameworkni, model muhitini va yordamchi vositani farqlaydi.
 
@@ -46,7 +46,7 @@ Bu loyihalar tayyor yagona JARVIS dasturi degani emas. Ularning mos imkoniyatlar
 
 ## Katalog
 
-Hozirgi katalogda **30 ta loyiha** bor: agentlar, agent frameworklari, mahalliy model muhiti va yordamchi media/hujjat vositalari. Ro‘yxat: [catalog/agents.json](catalog/agents.json)
+Hozirgi katalogda **38 ta loyiha** bor: agentlar, agent frameworklari, mahalliy model muhiti va yordamchi media/hujjat vositalari. Ro‘yxat: [catalog/agents.json](catalog/agents.json)
 
 Yangi qo‘shilgan loyihalar bo‘yicha qisqa saralash: [docs/KATALOG_SARALASH.md](docs/KATALOG_SARALASH.md)
 
