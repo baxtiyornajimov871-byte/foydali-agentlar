@@ -16,11 +16,17 @@ Maqsad — foydalanuvchiga kerakli ochiq manbali agentlarni bir joydan topish, t
 
 ## Hozirgi bosqich
 
-1. Agentlar katalogining boshlang‘ich ro‘yxatini tuzish.
-2. Har bir manbaning litsenziyasi va Windows o‘rnatish talablarini tekshirish.
-3. O‘rnatish va ishga tushirish mexanizmini loyihalash.
-4. Windows desktop interfeysini yaratish.
-5. Agentlarni alohida-alohida sinovdan o‘tkazish.
+1. GitHub’dagi rasmiy agent manbalarini katalogga kiritish.
+2. Litsenziya, Windows mosligi, resurs talabi va xavfsizlikni tekshirish.
+3. Har bir agent uchun alohida o‘rnatish yo‘riqnomasi va tekshiruv ro‘yxatini tayyorlash.
+4. O‘rnatishdan oldin foydalanuvchiga yuklama va ruxsatlarni ko‘rsatadigan mexanizm yaratish.
+5. Windows desktop interfeysini yaratish va agentlarni bittadan sinash.
+
+## Birinchi qo‘shilgan asosiy agent
+
+- **Hermes Agent** — umumiy shaxsiy yordamchi. Rasmiy repozitoriyada native Windows o‘rnatish yo‘li ko‘rsatilgan. Hozircha katalogga kiritilgan, lekin noutbukga o‘rnatilmagan va amaliy sinovdan o‘tmagan.
+- Rasmiy manba: https://github.com/NousResearch/hermes-agent
+- O‘rnatish faqat alohida tekshiruv va foydalanuvchi tasdig‘idan keyin amalga oshiriladi.
 
 ## Katalog
 
